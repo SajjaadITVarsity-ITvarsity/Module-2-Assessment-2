@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#tabs-top {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+h4 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 3.5em;
+}
+
+#tabs-top a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#tabs-top a:hover {
+    background-color: #666;
+}
+
+#main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.centered {
+    position: absolute
+    color: white;
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%);
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+}
+
+.info-box img {
+    border-radius: 10px;
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.info-box h2 {
+    font-size: 1.2em;
+    color: dimgray
+    margin: 0 0 10px 0;
+}
+
+.info-box p {
+    font-size: 0.9em;
+    color: darkgrey
+    margin: 0;
+}
+
+.info-box .right {
+    margin-left: auto;
+    width: 20px;
+    transition: transform 0.3s;
+    color: darkgrey;
+}
+
+.info-box:hover .right {
+    transform: translateX(5px);
+}
+
+#tabs-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+#tabs-bottom a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#tabs-bottom a:hover {
+    background-color: #666;
+}
+
+.container {
+    position: static;    
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    background-color: dimgrey;
+    color: white;
+   
+}
+    
+h5 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 2.5em;
+}
+    
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+    
+}
